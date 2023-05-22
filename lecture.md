@@ -41,6 +41,15 @@
 - React から API を使ってみよう
 - 外部 API を使用してみよう
 - その他、実際にはこんな感じで使うよ
+
   - swagger
   - rspec
   - commitee-rails
+
+- 環境構築
+- Controller を作ってみよう
+- Model を作ってみよう
+- API を作る
+- React から API を使ってみよう
+- 外部 API を使用してみよう
+- その他、実際にはこんな感じで使うよ
