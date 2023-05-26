@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   namespace :v1 do
-    resources :bookmarks, only: [:index]
+    resources :articles, only: [:index]
+    resources :bookmarks
   end
 end

@@ -1,4 +1,4 @@
 class Bookmark < ApplicationRecord
-  validates :title, presence: true, length: { minimum: 5 }
-  validates :url, presence: true
+  belongs_to :article
+  validates :article_id, uniqueness: true
 end
